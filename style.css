@@ -1,4 +1,4 @@
-body {
+.page {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -6,7 +6,15 @@ body {
   line-height: 32px;
   color: #f2f2f2;
   background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/hero-bg-dark.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.light-theme {
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("img/hero-bg-light.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -186,4 +194,36 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+.light-theme .page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+}
+
+.light-theme .page-footer a {
+  margin-left: 56px;
+  color: #ffffff;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.light-theme .page-header a {
+  margin-left: 56px;
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+chage-theme-button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #ffffff;
 }
