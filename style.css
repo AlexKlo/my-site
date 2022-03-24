@@ -54,6 +54,16 @@
   background-image: url("img/icon-phone.svg");
 }
 
+.light-theme .header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header-light.svg");
+}
+
+.light-theme .header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header-light.svg");
+}
+
 .hero-image {
   margin-bottom: 480px;
 }
@@ -122,6 +132,11 @@
   background-image: url("img/icon-css.svg");
 }
 
+.skill-js {
+  background-image: url("img/icon-js.svg");
+  background-size: 26px 26px;
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -132,10 +147,28 @@
   border-radius: 8px;
 }
 
+.light-theme .level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
 .level div {
   margin: 1px;
   height: 12px;
   background-color: #fea18d;
+  border-radius: 6px;
+}
+
+
+.light-theme .level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #288be6;
   border-radius: 6px;
 }
 
@@ -173,6 +206,10 @@
   color: #ffffff;
 }
 
+.light-theme .button {
+  background-color: #00417d;
+}
+
 .page-footer {
   padding: 40px 0;
   background-color: #260c26;
@@ -196,6 +233,16 @@
   background-image: url("img/icon-phone.svg");
 }
 
+.light-theme .footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer-light.svg");
+}
+
+.light-theme .footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer-light.svg");
+}
+
 .light-theme .page-footer {
   padding: 40px 0;
   background-color: #00417d;
@@ -211,19 +258,29 @@
 
 .light-theme .page-header a {
   margin-left: 56px;
-  color: rgb(0, 0, 255);
+  color: #00417d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-chage-theme-button {
+.chage-theme-button {
   padding: 6px 20px;
+  margin-right: 450px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
-  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: #00417d;
   color: #ffffff;
+}
+
+.light-theme .chage-theme-button {
+  background-color: #260c26;
+  color: #fea18d;
+}
+
+a img {
+  vertical-align: middle;
 }
